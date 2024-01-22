@@ -1,0 +1,90 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "9afc5b56-3364-47e2-bde2-46c8ef005c96": {
+      "type": "newsletter",
+      "blocks": {
+        "sections--18368170000687__9afc5b56-3364-47e2-bde2-46c8ef005c96-16861672473d4fe0ef-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "11850 SE Dixie Highway, Hobe Sound FL 33455",
+            "heading_size": "h2"
+          }
+        },
+        "sections--18368170000687__9afc5b56-3364-47e2-bde2-46c8ef005c96-16861672473d4fe0ef-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Store Hours: Opening Soon<\/p><p>Sunday<\/p><p>Monday<\/p><p>Tuesday<\/p><p>Wednesday <\/p><p>Thursday<\/p><p>Friday<\/p><p>Saturday <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "sections--18368170000687__9afc5b56-3364-47e2-bde2-46c8ef005c96-16861672473d4fe0ef-0",
+        "sections--18368170000687__9afc5b56-3364-47e2-bde2-46c8ef005c96-16861672473d4fe0ef-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Subscribe to our mailing list for insider news, product launches, and more.<\/p>"
+          }
+        },
+        "email_form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email_form"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "color_scheme": "accent-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "9afc5b56-3364-47e2-bde2-46c8ef005c96",
+    "newsletter",
+    "footer"
+  ]
+}
