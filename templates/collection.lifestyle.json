@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "collection_list_eN7ywE": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_4x9rn6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "exhibition-art"
+          }
+        },
+        "featured_collection_7NqJBY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "home-decor"
+          }
+        },
+        "featured_collection_jzNmeY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "beach-outdoors"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_4x9rn6",
+        "featured_collection_7NqJBY",
+        "featured_collection_jzNmeY"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main-collection-product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 20,
+        "padding_bottom": 68
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "collection_list_eN7ywE",
+    "main-collection-product-grid"
+  ]
+}
